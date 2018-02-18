@@ -1,9 +1,9 @@
 import React from 'react';
-import AppHeader from 'components/AppHeader';
+import PageHeader from 'components/PageHeader';
 
 const Contact = () => (
 	<div>
-		<AppHeader />
+		<PageHeader />
 		<h1>Contact</h1>
 	</div>
 );

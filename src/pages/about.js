@@ -1,9 +1,9 @@
 import React from 'react';
-import AppHeader from 'components/AppHeader';
+import PageHeader from 'components/PageHeader';
 
 const About = () => (
 	<div>
-		<AppHeader />
+		<PageHeader />
 		<h1>About</h1>
 	</div>
 );

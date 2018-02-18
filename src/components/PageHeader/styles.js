@@ -1,18 +1,23 @@
 import React from 'react';
 import Link from 'gatsby-link';
 import styled, { css } from 'styled-components';
-import { timingFunctions } from 'polished';
+import { timingFunctions, position } from 'polished';
 import Layout from 'components/Layout';
 
 export const Wrapper = styled.header`
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	z-index: 2;
+	position: relative;
+	height: 100vh;
+	${props =>
+		!!props.backgroundImage &&
+		css`
+			background: url(${props.backgroundImage});
+			background-size: cover;
+		`};
 `;
 
-export const Content = styled(Layout.Contain).attrs({ verticalPadding: true })`
+export const GlobalNav = styled(Layout.Contain).attrs({
+	verticalPadding: true,
+})`
 	display: flex;
 	justify-content: space-between;
 	align-items: center;

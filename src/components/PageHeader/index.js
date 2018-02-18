@@ -2,18 +2,18 @@ import React from 'react';
 import LogoImageSrc from 'assets/images/logo/logo.png';
 import VisuallyHidden from '../VisuallyHidden';
 import {
-	Wrapper,
-	Content,
+	GlobalNav,
 	Logo,
 	LogoImage,
 	LogoLink,
 	Nav,
 	NavLink,
+	Wrapper,
 } from './styles';
 
-const AppHeader = () => (
-	<Wrapper>
-		<Content>
+const PageHeader = ({ children, ...props }) => (
+	<Wrapper {...props}>
+		<GlobalNav>
 			<Logo>
 				<LogoLink to="/">
 					<LogoImage src={LogoImageSrc} alt="Pete Correia logo" />
@@ -27,8 +27,9 @@ const AppHeader = () => (
 				<NavLink to="/about">About</NavLink>
 				<NavLink to="/contact">Contact</NavLink>
 			</Nav>
-		</Content>
+		</GlobalNav>
+		{children}
 	</Wrapper>
 );
 
-export default AppHeader;
+export default PageHeader;
