@@ -1,9 +1,7 @@
 import styled, { css } from 'styled-components';
 import { MAX_WIDTH } from 'styles/layout';
 
-const Layout = {};
-
-Layout.Contain = styled.div`
+export const Contain = styled.div`
 	width: 100%;
 	max-width: ${MAX_WIDTH};
 	padding-left: 1.5em;
@@ -28,5 +26,3 @@ Layout.Contain = styled.div`
 			`};
 	}
 `;
-
-export default Layout;

@@ -1,3 +1,5 @@
-import Layout from './styles';
+import { Contain } from './styles';
 
-export default Layout;
+export default {
+	Contain,
+};
