@@ -1,3 +1,4 @@
+import React from 'react';
 import Link from 'gatsby-link';
 import styled, { css } from 'styled-components';
 import { timingFunctions } from 'polished';
@@ -44,7 +45,9 @@ export const Nav = styled.nav`
 	display: flex;
 `;
 
-export const NavLink = styled(Link).attrs({ activeClassName: 'active' })`
+export const NavLink = styled(({ noActiveStyles, ...props }) => (
+	<Link {...props} />
+)).attrs({ activeClassName: 'active' })`
 	margin-right: 24px;
 	font-size: 14px;
 
