@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'gatsby-link';
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
+import { timingFunctions } from 'polished';
 import LogoImageSrc from 'assets/images/logo/logo.png';
 import { MAX_WIDTH } from 'styles/layout';
 import VisuallyHidden from '../VisuallyHidden';
@@ -36,11 +37,36 @@ const LogoLink = styled(Link)`
 	display: block;
 	width: 50px;
 	height: 50px;
+	transition: transform 135ms ${timingFunctions('easeOutQuad')};
+
+	&:hover {
+		transform: scale(1.05);
+	}
 `;
 
 const LogoImage = styled.img`
 	width: 50px;
 	margin: 0;
+`;
+
+const Nav = styled.nav`
+	display: flex;
+`;
+
+const NavLink = styled(Link).attrs({ activeClassName: 'active' })`
+	margin-right: 72px;
+
+	&:last-child {
+		margin-right: 0;
+	}
+
+	${props =>
+		!props.noActiveStyles &&
+		css`
+			&.active {
+				text-decoration: underline;
+			}
+		`};
 `;
 
 const Header = () => (
@@ -52,7 +78,13 @@ const Header = () => (
 					<VisuallyHidden>Logo</VisuallyHidden>
 				</LogoLink>
 			</Logo>
-			<nav>Nav</nav>
+			<Nav>
+				<NavLink exact noActiveStyles to="/#work">
+					Work
+				</NavLink>
+				<NavLink to="/about">About</NavLink>
+				<NavLink to="/contact">Contact</NavLink>
+			</Nav>
 		</Content>
 	</Wrapper>
 );

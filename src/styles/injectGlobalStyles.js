@@ -8,40 +8,40 @@ import {
 	FONT_FAMILY_REGULAR,
 } from './fonts';
 
-import neuehaasunica_0_0_eot from 'assets/fonts/neuehaasunica/2F2779_0_0.eot';
-import neuehaasunica_0_0_woff2 from 'assets/fonts/neuehaasunica/2F2779_0_0.woff2';
-import neuehaasunica_0_0_woff from 'assets/fonts/neuehaasunica/2F2779_0_0.woff';
-import neuehaasunica_0_0_ttf from 'assets/fonts/neuehaasunica/2F2779_0_0.ttf';
+import NeueHaasUnica_Bold_eot from 'assets/fonts/neuehaasunica/2F2779_0_0.eot';
+import NeueHaasUnica_Bold_woff2 from 'assets/fonts/neuehaasunica/2F2779_0_0.woff2';
+import NeueHaasUnica_Bold_woff from 'assets/fonts/neuehaasunica/2F2779_0_0.woff';
+import NeueHaasUnica_Bold_ttf from 'assets/fonts/neuehaasunica/2F2779_0_0.ttf';
 
-import neuehaasunica_1_0_eot from 'assets/fonts/neuehaasunica/2F2779_1_0.eot';
-import neuehaasunica_1_0_woff2 from 'assets/fonts/neuehaasunica/2F2779_1_0.woff2';
-import neuehaasunica_1_0_woff from 'assets/fonts/neuehaasunica/2F2779_1_0.woff';
-import neuehaasunica_1_0_ttf from 'assets/fonts/neuehaasunica/2F2779_1_0.ttf';
+import NeueHaasUnica_Bold_Italic_eot from 'assets/fonts/neuehaasunica/2F2779_1_0.eot';
+import NeueHaasUnica_Bold_Italic_woff2 from 'assets/fonts/neuehaasunica/2F2779_1_0.woff2';
+import NeueHaasUnica_Bold_Italic_woff from 'assets/fonts/neuehaasunica/2F2779_1_0.woff';
+import NeueHaasUnica_Bold_Italic_ttf from 'assets/fonts/neuehaasunica/2F2779_1_0.ttf';
 
-import neuehaasunica_2_0_eot from 'assets/fonts/neuehaasunica/2F2779_2_0.eot';
-import neuehaasunica_2_0_woff2 from 'assets/fonts/neuehaasunica/2F2779_2_0.woff2';
-import neuehaasunica_2_0_woff from 'assets/fonts/neuehaasunica/2F2779_2_0.woff';
-import neuehaasunica_2_0_ttf from 'assets/fonts/neuehaasunica/2F2779_2_0.ttf';
+import NeueHaasUnica_Italic_eot from 'assets/fonts/neuehaasunica/2F2779_2_0.eot';
+import NeueHaasUnica_Italic_woff2 from 'assets/fonts/neuehaasunica/2F2779_2_0.woff2';
+import NeueHaasUnica_Italic_woff from 'assets/fonts/neuehaasunica/2F2779_2_0.woff';
+import NeueHaasUnica_Italic_ttf from 'assets/fonts/neuehaasunica/2F2779_2_0.ttf';
 
-import neuehaasunica_3_0_eot from 'assets/fonts/neuehaasunica/2F2779_3_0.eot';
-import neuehaasunica_3_0_woff2 from 'assets/fonts/neuehaasunica/2F2779_3_0.woff2';
-import neuehaasunica_3_0_woff from 'assets/fonts/neuehaasunica/2F2779_3_0.woff';
-import neuehaasunica_3_0_ttf from 'assets/fonts/neuehaasunica/2F2779_3_0.ttf';
+import NeueHaasUnica_Light_eot from 'assets/fonts/neuehaasunica/2F2779_3_0.eot';
+import NeueHaasUnica_Light_woff2 from 'assets/fonts/neuehaasunica/2F2779_3_0.woff2';
+import NeueHaasUnica_Light_woff from 'assets/fonts/neuehaasunica/2F2779_3_0.woff';
+import NeueHaasUnica_Light_ttf from 'assets/fonts/neuehaasunica/2F2779_3_0.ttf';
 
-import neuehaasunica_4_0_eot from 'assets/fonts/neuehaasunica/2F2779_4_0.eot';
-import neuehaasunica_4_0_woff2 from 'assets/fonts/neuehaasunica/2F2779_4_0.woff2';
-import neuehaasunica_4_0_woff from 'assets/fonts/neuehaasunica/2F2779_4_0.woff';
-import neuehaasunica_4_0_ttf from 'assets/fonts/neuehaasunica/2F2779_4_0.ttf';
+import NeueHaasUnica_Regular_eot from 'assets/fonts/neuehaasunica/2F2779_4_0.eot';
+import NeueHaasUnica_Regular_woff2 from 'assets/fonts/neuehaasunica/2F2779_4_0.woff2';
+import NeueHaasUnica_Regular_woff from 'assets/fonts/neuehaasunica/2F2779_4_0.woff';
+import NeueHaasUnica_Regular_ttf from 'assets/fonts/neuehaasunica/2F2779_4_0.ttf';
 
-import neuehaasunica_5_0_eot from 'assets/fonts/neuehaasunica/2F2779_5_0.eot';
-import neuehaasunica_5_0_woff2 from 'assets/fonts/neuehaasunica/2F2779_5_0.woff2';
-import neuehaasunica_5_0_woff from 'assets/fonts/neuehaasunica/2F2779_5_0.woff';
-import neuehaasunica_5_0_ttf from 'assets/fonts/neuehaasunica/2F2779_5_0.ttf';
+import NeueHaasUnica_Thin_eot from 'assets/fonts/neuehaasunica/2F2779_5_0.eot';
+import NeueHaasUnica_Thin_woff2 from 'assets/fonts/neuehaasunica/2F2779_5_0.woff2';
+import NeueHaasUnica_Thin_woff from 'assets/fonts/neuehaasunica/2F2779_5_0.woff';
+import NeueHaasUnica_Thin_ttf from 'assets/fonts/neuehaasunica/2F2779_5_0.ttf';
 
-import neuehaasunica_6_0_eot from 'assets/fonts/neuehaasunica/2F2779_6_0.eot';
-import neuehaasunica_6_0_woff2 from 'assets/fonts/neuehaasunica/2F2779_6_0.woff2';
-import neuehaasunica_6_0_woff from 'assets/fonts/neuehaasunica/2F2779_6_0.woff';
-import neuehaasunica_6_0_ttf from 'assets/fonts/neuehaasunica/2F2779_6_0.ttf';
+import NeueHaasUnica_UltraLight_eot from 'assets/fonts/neuehaasunica/2F2779_6_0.eot';
+import NeueHaasUnica_UltraLight_woff2 from 'assets/fonts/neuehaasunica/2F2779_6_0.woff2';
+import NeueHaasUnica_UltraLight_woff from 'assets/fonts/neuehaasunica/2F2779_6_0.woff';
+import NeueHaasUnica_UltraLight_ttf from 'assets/fonts/neuehaasunica/2F2779_6_0.ttf';
 
 export default function() {
 	return injectGlobal`
@@ -91,80 +91,80 @@ export default function() {
 
 		@font-face {
 			font-family: ${FONT_REGULAR};
-			font-weight: bold;
+			font-weight: normal;
 			font-style: normal;
-			src: url('${neuehaasunica_0_0_eot}');
-			src: url('${neuehaasunica_0_0_eot}?#iefix')
+			src: url('${NeueHaasUnica_Regular_eot}');
+			src: url('${NeueHaasUnica_Regular_eot}?#iefix')
 					format('embedded-opentype'),
-				url('${neuehaasunica_0_0_woff2}') format('woff2'),
-				url('${neuehaasunica_0_0_woff}') format('woff'),
-				url('${neuehaasunica_0_0_ttf}') format('truetype');
-		}
-
-		@font-face {
-			font-family: ${FONT_REGULAR};
-			font-weight: bold;
-			font-style: italic;
-			src: url('${neuehaasunica_1_0_eot}');
-			src: url('${neuehaasunica_1_0_eot}?#iefix')
-					format('embedded-opentype'),
-				url('${neuehaasunica_1_0_woff2}') format('woff2'),
-				url('${neuehaasunica_1_0_woff}') format('woff'),
-				url('${neuehaasunica_1_0_ttf}') format('truetype');
+				url('${NeueHaasUnica_Regular_woff2}') format('woff2'),
+				url('${NeueHaasUnica_Regular_woff}') format('woff'),
+				url('${NeueHaasUnica_Regular_ttf}') format('truetype');
 		}
 
 		@font-face {
 			font-family: ${FONT_REGULAR};
 			font-weight: normal;
 			font-style: italic;
-			src: url('${neuehaasunica_2_0_eot}');
-			src: url('${neuehaasunica_2_0_eot}?#iefix')
+			src: url('${NeueHaasUnica_Italic_eot}');
+			src: url('${NeueHaasUnica_Italic_eot}?#iefix')
 					format('embedded-opentype'),
-				url('${neuehaasunica_2_0_woff2}') format('woff2'),
-				url('${neuehaasunica_2_0_woff}') format('woff'),
-				url('${neuehaasunica_2_0_ttf}') format('truetype');
+				url('${NeueHaasUnica_Italic_woff2}') format('woff2'),
+				url('${NeueHaasUnica_Italic_woff}') format('woff'),
+				url('${NeueHaasUnica_Italic_ttf}') format('truetype');
+		}
+
+		@font-face {
+			font-family: ${FONT_REGULAR};
+			font-weight: bold;
+			font-style: normal;
+			src: url('${NeueHaasUnica_Bold_eot}');
+			src: url('${NeueHaasUnica_Bold_eot}?#iefix')
+					format('embedded-opentype'),
+				url('${NeueHaasUnica_Bold_woff2}') format('woff2'),
+				url('${NeueHaasUnica_Bold_woff}') format('woff'),
+				url('${NeueHaasUnica_Bold_ttf}') format('truetype');
+		}
+
+		@font-face {
+			font-family: ${FONT_REGULAR};
+			font-weight: bold;
+			font-style: italic;
+			src: url('${NeueHaasUnica_Bold_Italic_eot}');
+			src: url('${NeueHaasUnica_Bold_Italic_eot}?#iefix')
+					format('embedded-opentype'),
+				url('${NeueHaasUnica_Bold_Italic_woff2}') format('woff2'),
+				url('${NeueHaasUnica_Bold_Italic_woff}') format('woff'),
+				url('${NeueHaasUnica_Bold_Italic_ttf}') format('truetype');
 		}
 
 		@font-face {
 			font-family: ${FONT_LIGHT};
-			src: url('${neuehaasunica_3_0_eot}');
-			src: url('${neuehaasunica_3_0_eot}?#iefix')
+			src: url('${NeueHaasUnica_Light_eot}');
+			src: url('${NeueHaasUnica_Light_eot}?#iefix')
 					format('embedded-opentype'),
-				url('${neuehaasunica_3_0_woff2}') format('woff2'),
-				url('${neuehaasunica_3_0_woff}') format('woff'),
-				url('${neuehaasunica_3_0_ttf}') format('truetype');
-		}
-
-		@font-face {
-			font-family: ${FONT_REGULAR};
-			font-weight: normal;
-			font-style: normal;
-			src: url('${neuehaasunica_4_0_eot}');
-			src: url('${neuehaasunica_4_0_eot}?#iefix')
-					format('embedded-opentype'),
-				url('${neuehaasunica_4_0_woff2}') format('woff2'),
-				url('${neuehaasunica_4_0_woff}') format('woff'),
-				url('${neuehaasunica_4_0_ttf}') format('truetype');
+				url('${NeueHaasUnica_Light_woff2}') format('woff2'),
+				url('${NeueHaasUnica_Light_woff}') format('woff'),
+				url('${NeueHaasUnica_Light_ttf}') format('truetype');
 		}
 
 		@font-face {
 			font-family: ${FONT_THIN};
-			src: url('${neuehaasunica_5_0_eot}');
-			src: url('${neuehaasunica_5_0_eot}?#iefix')
+			src: url('${NeueHaasUnica_Thin_eot}');
+			src: url('${NeueHaasUnica_Thin_eot}?#iefix')
 					format('embedded-opentype'),
-				url('${neuehaasunica_5_0_woff2}') format('woff2'),
-				url('${neuehaasunica_5_0_woff}') format('woff'),
-				url('${neuehaasunica_5_0_ttf}') format('truetype');
+				url('${NeueHaasUnica_Thin_woff2}') format('woff2'),
+				url('${NeueHaasUnica_Thin_woff}') format('woff'),
+				url('${NeueHaasUnica_Thin_ttf}') format('truetype');
 		}
 
 		@font-face {
 			font-family: ${FONT_ULTRALIGHT};
-			src: url('${neuehaasunica_6_0_eot}');
-			src: url('${neuehaasunica_6_0_eot}?#iefix')
+			src: url('${NeueHaasUnica_UltraLight_eot}');
+			src: url('${NeueHaasUnica_UltraLight_eot}?#iefix')
 					format('embedded-opentype'),
-				url('${neuehaasunica_6_0_woff2}') format('woff2'),
-				url('${neuehaasunica_6_0_woff}') format('woff'),
-				url('${neuehaasunica_6_0_ttf}') format('truetype');
+				url('${NeueHaasUnica_UltraLight_woff2}') format('woff2'),
+				url('${NeueHaasUnica_UltraLight_woff}') format('woff'),
+				url('${NeueHaasUnica_UltraLight_ttf}') format('truetype');
 		}
 
 		*,
@@ -177,7 +177,6 @@ export default function() {
 			font-size: 16px;
 			font-family: ${FONT_FAMILY_REGULAR};
 			font-weight: normal;
-    		line-height: 1.375em;
 			-webkit-font-smoothing: antialiased;
 			background-color: #fff;
 			color: #000;
