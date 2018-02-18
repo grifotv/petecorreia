@@ -1,9 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
+import injectGlobalStyles from 'styles/injectGlobalStyles';
 
-import Header from '../components/Header';
-import './index.css';
+injectGlobalStyles();
 
 const TemplateWrapper = ({ children }) => (
 	<div>
