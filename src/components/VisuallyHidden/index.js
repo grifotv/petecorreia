@@ -10,3 +10,5 @@ const VisuallyHidden = styled.span`
 	position: absolute;
 	width: 1px;
 `;
+
+export default VisuallyHidden;
