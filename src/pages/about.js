@@ -1,9 +1,9 @@
 import React from 'react';
-import Header from 'components/Header';
+import AppHeader from 'components/AppHeader';
 
 const About = () => (
 	<div>
-		<Header />
+		<AppHeader />
 		<h1>About</h1>
 	</div>
 );

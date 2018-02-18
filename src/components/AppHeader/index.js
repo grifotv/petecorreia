@@ -3,7 +3,7 @@ import Link from 'gatsby-link';
 import styled, { css } from 'styled-components';
 import { timingFunctions } from 'polished';
 import LogoImageSrc from 'assets/images/logo/logo.png';
-import { MAX_WIDTH } from 'styles/layout';
+import Layout from 'components/Layout';
 import VisuallyHidden from '../VisuallyHidden';
 
 const Wrapper = styled.header`
@@ -12,18 +12,12 @@ const Wrapper = styled.header`
 	left: 0;
 	width: 100%;
 	z-index: 2;
-	display: flex;
-	justify-content: center;
-	align-items: center;
 `;
 
-const Content = styled.div`
+const Content = styled(Layout.Contain).attrs({ verticalPadding: true })`
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	width: 100%;
-	max-width: ${MAX_WIDTH};
-	padding: 40px;
 `;
 
 const Logo = styled.h1`
@@ -54,7 +48,8 @@ const Nav = styled.nav`
 `;
 
 const NavLink = styled(Link).attrs({ activeClassName: 'active' })`
-	margin-right: 72px;
+	margin-right: 24px;
+	font-size: 14px;
 
 	&:last-child {
 		margin-right: 0;
@@ -67,9 +62,14 @@ const NavLink = styled(Link).attrs({ activeClassName: 'active' })`
 				text-decoration: underline;
 			}
 		`};
+
+	@media (min-width: 30.0625em) {
+		margin-right: 72px;
+		font-size: 18px;
+	}
 `;
 
-const Header = () => (
+const AppHeader = () => (
 	<Wrapper>
 		<Content>
 			<Logo>
@@ -89,4 +89,4 @@ const Header = () => (
 	</Wrapper>
 );
 
-export default Header;
+export default AppHeader;

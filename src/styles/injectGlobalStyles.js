@@ -174,6 +174,7 @@ export default function() {
 		}
 
 		html {
+			min-width: 320px;
 			font-size: 16px;
 			font-family: ${FONT_FAMILY_REGULAR};
 			font-weight: normal;
