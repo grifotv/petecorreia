@@ -5,7 +5,6 @@ import {
 	FONT_LIGHT,
 	FONT_THIN,
 	FONT_ULTRALIGHT,
-	FONT_FAMILY_REGULAR,
 } from './typography';
 
 import NeueHaasUnica_Bold_eot from 'assets/fonts/neuehaasunica/2F2779_0_0.eot';
@@ -45,8 +44,6 @@ import NeueHaasUnica_UltraLight_ttf from 'assets/fonts/neuehaasunica/2F2779_6_0.
 
 export default function() {
 	return injectGlobal`
-		${normalize()};
-
 		/**
 		* @license
 		* MyFonts Webfont Build ID 3090297, 2015-09-13T06:38:57-0400
@@ -167,73 +164,12 @@ export default function() {
 				url('${NeueHaasUnica_UltraLight_ttf}') format('truetype');
 		}
 
-		*,
-		*:before,
-		*:after {
-			box-sizing: border-box;
-		}
+		${normalize()}
 
-		html {
-			min-width: 320px;
-			font-size: 16px;
-			font-family: ${FONT_FAMILY_REGULAR};
-			font-weight: normal;
+		body {
 			-webkit-font-smoothing: antialiased;
-			background-color: #fff;
-			color: #000;
+			-moz-osx-font-smoothing: grayscale;
 		}
 
-		#root {
-			width: 100vw;
-			height: 100vh;
-		}
-
-		a {
-			color: inherit;
-			text-decoration: none;
-		}
-
-		h1, h2, h3, h4, h5, h6 {
-			margin: 0;
-			font-weight: inherit;
-		}
-
-		p {
-			margin: 0;
-		}
-
-		ul, ol {
-			margin: 0;
-			padding: 0;
-			list-style: none;
-		}
-
-		table {
-			border-collapse: collapse;
-		}
-
-		button {
-			font: inherit;
-			color: inherit;
-			border-radius: 0;
-		}
-
-		input, textarea {
-			font: inherit;
-		}
-
-		input[type="number"] {
-			appearance: textfield;
-
-			&::-webkit-outer-spin-button,
-			&::-webkit-inner-spin-button {
-				appearance: none;
-				margin: 0;
-			}
-		}
-
-		#adalIdTokenFrame {
-			top: 0;
-		}
 	`;
 }

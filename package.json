@@ -12,6 +12,7 @@
     "gatsby-plugin-styled-components": "^2.0.7",
     "polished": "^1.9.2",
     "react-helmet": "^5.2.0",
+    "rebass": "^2.0.0-0",
     "styled-components": "^3.1.6"
   },
   "keywords": [
