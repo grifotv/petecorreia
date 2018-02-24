@@ -1,9 +1,9 @@
 import styled, { css } from 'styled-components';
-import { MAX_WIDTH } from 'styles/layout';
+import { LAYOUT_WIDTH_MAX } from 'styles/layout';
 
 export const Contain = styled.div`
 	width: 100%;
-	max-width: ${MAX_WIDTH};
+	max-width: ${LAYOUT_WIDTH_MAX};
 	padding-left: 1.5em;
 	padding-right: 1.5em;
 	margin-left: auto;

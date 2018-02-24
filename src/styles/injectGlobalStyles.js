@@ -6,7 +6,7 @@ import {
 	FONT_THIN,
 	FONT_ULTRALIGHT,
 	FONT_FAMILY_REGULAR,
-} from './fonts';
+} from './typography';
 
 import NeueHaasUnica_Bold_eot from 'assets/fonts/neuehaasunica/2F2779_0_0.eot';
 import NeueHaasUnica_Bold_woff2 from 'assets/fonts/neuehaasunica/2F2779_0_0.woff2';
