@@ -1,0 +1,81 @@
+<head>
+	<style>
+		@keyframes fadeFromWhite {
+			0% {
+				background: white;
+			}
+		}
+
+		body {
+			margin: 0;
+			box-sizing: border-box;
+			background: black;
+			color: white;
+			font-family: 'Helvetica Neue', Helvetica, sans-serif;
+			animation: fadeFromWhite 4s;
+			-webkit-font-smoothing: antialiased;
+		}
+
+		svg {
+			overflow: visible;
+		}
+
+		@keyframes moveLeft {
+			0% {
+				transform: translateX(40vw);
+			}
+		}
+
+		.logo {
+			position: absolute;
+			top: 50%;
+			left: 5%;
+			margin-top: -32px;
+			transform-origin: center center;
+			animation: moveLeft 5s cubic-bezier(.11, 1.14, .41, .99) both;
+		}
+
+		@keyframes fadeInMoveRight {
+			0% {
+				opacity: 0;
+				transform: translateX(-30vw);
+			}
+		}
+
+		.name {
+			position: absolute;
+			top: 50%;
+			right: 5%;
+			margin: -50px 0 0;
+			font-size: 64px;
+			font-weight: 300;
+			line-height: 1;
+			transform-origin: center center;
+			animation: fadeInMoveRight 5s cubic-bezier(.11, 1.14, .41, .99) both;
+		}
+
+		.job {
+			position: absolute;
+			top: 50%;
+			right: 5%;
+			margin: 20px 0 0;
+			font-size: 16px;
+			line-height: 1;
+			opacity: 0.5;
+			transform-origin: center center;
+			animation: fadeInMoveRight 5s cubic-bezier(.11, 1.14, .41, .99) both;
+		}
+	</style>
+</head>
+
+<body>
+	<svg class="logo" width="64" height="64" viewBox="0 0 64 64">
+		<path fill="currentColor" d="M19.2,52.6649737 L19.2,64 L0,64 L0,56.8121919 L0,0 C14.156672,0 26.4505755,6.14221324 32.6336745,15.1550612 C39.1380785,6.05812467 50.7535772,0 64,0 L64,64 C48.8564521,64 35.844436,56.0823509 30.163763,44.758285 C27.2542431,47.9356915 23.5196482,50.6328712 19.2,52.6649737 Z"></path>
+	</svg>
+
+	<h1 class="name">Pete Correia</h1>
+	<h2 class="job">Head of Technology, London at Fathom</h2>
+
+	<script defer>
+	</script>
+</body>
